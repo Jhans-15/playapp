@@ -1,0 +1,8 @@
+.__yhxu {
+    display: grid;
+    position: relative;
+    background-color: var(--white-bg);
+    grid-template-rows: 60px calc(100vh - 60px);
+    grid-template-areas: "header header"
+                         "main main";
+}

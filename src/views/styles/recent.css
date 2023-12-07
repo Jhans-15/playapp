@@ -1,0 +1,27 @@
+.__jxusbaz {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.__jxusbaz .__tit {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.__jxusbaz .__tit .__xols1 span {
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.__jxusbaz .__tit .__xols2 a {
+    font-size: .8em;
+    font-weight: 500;
+    color: var(--primary);
+}
+
+.__jxusbaz .__scroll-v {
+    width: 100%;
+}

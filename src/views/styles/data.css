@@ -1,0 +1,32 @@
+.___xyhsv1 {
+    width: 100%;
+}
+
+.___xyhsv1 .__name-product {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.___xyhsv1 .__name-product .badge {
+    font-size: .8em;
+    font-weight: 500;
+    padding: .2em .5em;
+    border-radius: 100px;
+}
+.___xyhsv1 .__name-product .badge-gender_1 {
+    color: var(--pink);
+    background-color: var(--pink-20);
+}
+.___xyhsv1 .__name-product .badge-gender_2 {
+    color: var(--blue);
+    background-color: var(--blue-20);
+}
+
+
+.___xyhsv1 .__desc-product {
+    font-size: .8em;
+    padding: 2em 0em;
+    color: #888888;
+}
+

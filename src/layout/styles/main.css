@@ -1,0 +1,51 @@
+.__hyxbs6 {
+    grid-area: main;
+    width: 100%;
+    padding: 1em;
+    overflow-y: scroll;
+    height: calc(100vh - 60px);
+}
+.__hyxbs6::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/* DETAILS */
+
+.__hxyhns1 {
+    grid-area: main;
+    width: 100%;
+    padding: 1em;
+    overflow-y: scroll;
+    height: calc(100vh - 120px);
+}
+.__hxyhns1::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* CART */
+
+.__xbys56b {
+    grid-area: main;
+    width: 100%;
+    padding: 1em;
+    overflow-y: scroll;
+    height: calc(100vh - 120px);
+}
+.__xbys56b::-webkit-scrollbar {
+    display: none;
+}
+
+
+.__7uxn21 {
+    grid-area: main;
+    width: 100%;
+    padding: 1em;
+    overflow-y: scroll;
+    height: calc(100vh - 60px);
+}
+.__7uxn21::-webkit-scrollbar {
+    display: none;
+}

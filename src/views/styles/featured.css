@@ -1,0 +1,34 @@
+.__xyyhan {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.__xyyhan .__tit {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.__xyyhan .__tit .__xols1 span {
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.__xyyhan .__tit .__xols2 a {
+    font-size: .8em;
+    color: var(--black);
+    text-decoration: underline;
+}
+
+.__xyyhan .__scroll-h {
+    width: 100%;
+    display: flex;
+    gap: .5em;
+    overflow-y: scroll;
+    align-items: center;
+}
+.__xyyhan .__scroll-h::-webkit-scrollbar {
+    display: none;
+}

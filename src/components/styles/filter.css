@@ -1,0 +1,11 @@
+.__filtor {
+    font-size: .8em;
+    padding: 0.5em 1em;
+    border-radius: 100px;
+}
+
+
+.__filtor--active-default {
+    color: var(--primary);
+    background-color: var(--primary-20);
+}

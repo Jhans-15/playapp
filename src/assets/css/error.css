@@ -1,0 +1,24 @@
+.__er00r_pag3 {
+    display: grid;
+    place-items: center;
+}
+
+.__er00r_pag3 .__box {
+    width: 90%;
+    margin: auto;
+}
+.__er00r_pag3 .__box .__txt {
+    text-align: center;
+}
+.__er00r_pag3 .__box .__txt p {
+    font-weight: 600;
+    margin-bottom: .5em;
+}
+.__er00r_pag3 .__box .__txt .__a-home {
+    display: inline-block;
+    padding: .5em 1em;
+    font-weight: 600;
+    border-radius: 10px;
+    color: var(--primary);
+    background-color: var(--primary-20);
+}

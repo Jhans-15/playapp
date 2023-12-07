@@ -1,0 +1,6 @@
+.__77uxnsx {
+    display: grid;
+    grid-template-rows: 60px calc(100vh - 60px);
+    grid-template-areas: "header header"
+                         "main main";
+}

@@ -1,0 +1,10 @@
+.__filters {
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1em;
+    overflow-x: scroll;
+}
+.__filters::-webkit-scrollbar {
+    display: none;
+}

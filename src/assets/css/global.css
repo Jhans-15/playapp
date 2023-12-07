@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+
+    --white: #FFFFFF;
+    --white-bg: #F2F0F5;
+
+    --black: #000000;
+    --gray: #888888;
+    --place: #d1d1d1;
+
+    --primary: #FF16BE;
+    --primary-20: rgb(255,22,190, .2);
+
+    --pink: #e91e63;
+    --pink-20: rgb(233, 32, 99, .2);
+
+    --blue: #03a9f4;
+    --blue-20: rgb(2, 166, 242, .2);
+
+    --yellow: #f9f932;
+    --yellow-20: rgb(249, 249, 52, .2);
+
+    --green: #00a70e;
+    --green-20: rgb(0, 168, 14, .2);
+
+    --font-family: 'Montserrat', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+input, textarea, select {
+    border: none;
+    outline: none;
+    font-family: var(--font-family);
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    background-color: #F2F0F5;
+}
+
+.tabler-icon {
+    stroke-width: 1.5;
+}
+
+
+.badge-gender_1 {
+    color: var(--pink);
+    background-color: var(--pink-20);
+}
+.badge-gender_2 {
+    color: var(--blue);
+    background-color: var(--blue-20);
+}
+.badge-gender_3 {
+    color: var(--yellow);
+    background-color: var(--yellow-20);
+}
+.badge-gender_4 {
+    color: var(--blue);
+    background-color: var(--blue-20);
+}
+.badge-gender_5 {
+    color: var(--green);
+    background-color: var(--green-20);
+}

@@ -1,0 +1,121 @@
+.__cart {
+    width: 100%;
+    padding: 0.5em;
+    margin: 1em 0em;
+    border-radius: 10px;
+    background-color: var(--white);
+}
+
+.__cart .__row {
+    width: 100%;
+    margin-bottom: .5em;
+}
+
+.__cart .__mb-2 {
+    margin-bottom: 2em;
+}
+
+.__cart .__row .__tit-prom {
+    width: 100%;
+    display: flex;
+    margin-bottom: .5em;
+    align-items: center;
+    justify-content: space-between;
+}
+.__cart .__row .__tit-prom .__span-tit {
+    font-size: .9em;
+    font-weight: 500;
+}
+
+.__cart .__row .__tit-prom .__span-ico .tabler-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.__cart .__row .__entry-prom {
+    width: 100%;
+}
+.__cart .__row .__entry-prom .__entry {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.__cart .__row .__entry-prom .__entry .__entry-code {
+    width: 100%;
+    height: inherit;
+    padding: 0em 50px 0em 1em;
+    background-color: var(--white-bg);
+}
+.__cart .__row .__entry-prom .__entry .__btn-apply {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    display: grid;
+    height: inherit;
+    place-items: center;
+    color: var(--primary);
+    background-color: var(--primary-20);
+}
+
+.__cart .__row-sub {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.__cart .__row-sub .__sub-tit span {
+    font-size: .8em;
+    color: #888888;
+}
+
+.__cart .__row-sub .__sub-prc span {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.__cart .__line {
+    width: 100%;
+    height: 1px;
+    margin: 1em 0em;
+    border: 1px dashed #ccc;
+}
+
+.__cart .__row-tol {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.__cart .__row-tol .__sub-tit span {
+    font-size: .8em;
+    color: #888888;
+}
+
+.__cart .__row-tol .__sub-prc span {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+
+
+.__centerd {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.__centerd .__box {
+    text-align: center;
+}
+.__centerd .__box .__img {
+    width: 60%;
+    margin: auto;
+}
+
+.__centerd .__box span {
+    margin: .5em 0em;
+    font-weight: 500;
+    font-size: 1.2em;
+}

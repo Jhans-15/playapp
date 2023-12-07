@@ -1,0 +1,7 @@
+.__xgbs62z {
+    display: grid;
+    grid-template-rows: 60px calc(100vh - 120px) 60px;
+    grid-template-areas: "header header"
+                         "main main"
+                         "footer footer";
+}
